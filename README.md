@@ -178,7 +178,7 @@ Contiene pruebas unitarias y de integración para validar el sistema.
 ##  Instalación y Configuración
 
 ###  Clonar repositorio
-git clone https://github.com/usuario/QRINVENTORY.git
+git clone https://github.com/usuario/QRINVENTORY_FINAL.git
 
 ### Instalar dependencias
 composer install
