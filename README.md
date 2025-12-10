@@ -73,6 +73,104 @@ QRINVENTORY es una plataforma web enfocada en facilitar la gestión de inventari
 
 ---
 
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/47dd4fa5-ad84-4eff-905a-44a9c6e2f2e4" />
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/94521aaa-0f50-40d6-aae6-7ca624b641f3" />
+
+
+## Descripción de cada carpeta
+app/
+
+Contiene toda la lógica del sistema:
+
+Models → Representan tablas (Product, Category, Movement, User).
+
+Http/Controllers → Controlan el flujo entre vistas, datos y lógica.
+
+Middlewares → Validación de accesos, roles, autenticación.
+
+Policies, Providers, Jobs, Notifications, etc.
+
+bootstrap/
+
+Carga inicial de la aplicación. Incluye el archivo app.php, donde inicia Laravel.
+
+config/
+
+Todo lo relacionado con la configuración del sistema:
+
+conexión a DB
+
+autenticación
+
+correo
+
+sesiones
+
+colas
+
+servicios externos
+
+database/
+
+Incluye:
+
+migraciones para crear tablas (products, categories, movimientos, users)
+
+seeders para generar datos iniciales
+
+factories para pruebas
+
+public/
+
+La carpeta visible al usuario final:
+
+index.php (entrada del sistema)
+
+imágenes y QR generados
+
+assets procesados por Vite (JS, CSS)
+
+resources/
+
+Recursos del frontend:
+
+views/ → Vistas Blade
+
+css/ → Estilos originales antes de compilar con Tailwind
+
+js/ → Scripts del sistema
+
+components/ → Partes reutilizables del diseño
+
+routes/
+
+Aquí defines las rutas principales:
+
+web.php → rutas del sistema web
+
+api.php → API del sistema (si la implementaste)
+
+Middleware asignado según roles y autenticación
+
+storage/
+
+Almacena:
+
+logs del sistema
+
+archivos temporales
+
+vistas compiladas
+
+códigos QR generados
+
+backup de información (si lo implementaste)
+
+tests/
+
+Contiene pruebas unitarias y de integración para validar el sistema.
+
+
 ##  Instalación y Configuración
 
 ###  Clonar repositorio
