@@ -74,10 +74,12 @@ QRINVENTORY es una plataforma web enfocada en facilitar la gestión de inventari
 ---
 
 <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/47dd4fa5-ad84-4eff-905a-44a9c6e2f2e4" />
-<br>
-<br>
+
+---
+
 <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/94521aaa-0f50-40d6-aae6-7ca624b641f3" />
 
+---
 
 ## Descripción de cada carpeta
 app/
