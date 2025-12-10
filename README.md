@@ -73,6 +73,25 @@ QRINVENTORY es una plataforma web enfocada en facilitar la gestión de inventari
 
 ---
 
+##  Instalación y Configuración
+
+###  Clonar repositorio
+git clone https://github.com/usuario/QRINVENTORY.git
+
+### Instalar dependencias
+composer install
+npm install
+
+### Configurar archivo .env
+cp .env.example .env  
+php artisan key:generate
+
+### Ejecutar migraciones y seeders
+php artisan migrate --seed
+
+### Iniciar servidores
+npm run dev  
+php artisan serve
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
